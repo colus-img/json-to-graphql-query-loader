@@ -9,20 +9,20 @@ If you want to convert from a YAML to a GraphQL Query, chain it with [yaml-loade
 
 ## Usage
 
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
+[Loaders | webpack](https://webpack.js.org/concepts/loaders/)
 
 Simplest case would be:
 
 ``` javascript
 var graphQLQuery = require("json-to-graphql-query-loader!./file.json");
-// => returns file.gqlq as graphQL query
+// => returns as graphQL query
 ```
 
 Case for from YAML file would be:
 
 ``` javascript
 var graphQLQuery = require("json-to-graphql-query-loader!yaml-loader!./file.yml");
-// => returns file.gqlq as graphQL query
+// => returns as graphQL query
 ```
 
 This loader is also useful for getting a GraphQL Query from JSON. For example:
@@ -39,8 +39,4 @@ module: {
   ],
 }
 ```
-
-## License
-
-MIT (http://www.opensource.org/licenses/mit-license.php)
 
