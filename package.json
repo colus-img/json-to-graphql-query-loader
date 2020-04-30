@@ -1,0 +1,16 @@
+{
+  "name": "json-to-graphql-query-loader",
+  "version": "0.0.1",
+  "description": "json-to-graphql-query loader for webpack",
+  "main": "index.js",
+  "keywords": [
+    "graphql",
+    "webpack",
+    "loader",
+    "json"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "json-to-graphql-query": "^2.0.0"
+  }
+}
